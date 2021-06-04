@@ -1,0 +1,253 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+
+    margin: 0px;
+    padding:0px;
+    transition: .3s;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+*::selection{
+background-color: yellow;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden ;
+}
+body{
+
+overflow-x: hidden;
+    background: #111;
+    padding-left: 35rem;
+}
+section{
+    min-height: 100vh;
+    padding:1rem;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    padding:.7rem 3rem;
+
+}
+.btn i{
+    padding:0 .5rem;
+    font-size: .8rem;
+}
+.btn:hover{
+    background: orangered;
+}
+.head{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 4rem;
+    padding: 1rem;
+    color: orangered;
+}
+ #abot{
+    color: white;
+    font-size: 3rem;
+}
+.skill{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 4rem;
+    padding: 1rem;
+    color: violet;
+}
+.sheading{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 2rem;
+    padding: 1rem;
+    color: blue;
+}
+.ssheading{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 2rem;
+    padding: 1rem;
+    color: orangered;
+
+}
+.sssheading{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 1rem;
+    padding: 1rem;
+    color: orange;
+
+}
+.projet{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 4rem;
+    padding: 1rem;
+    color: blue;
+}
+.image{
+   max-width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+    margin: 0 auto;
+
+}
+.contact .con,.title{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 4rem;
+    padding: 1rem;
+    color: blue;
+}
+.info{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 2rem;
+    padding: 1rem;
+    color:white;   
+}
+.button-container{
+    display: flex;
+    align-content:center ;
+    justify-content: center;
+}
+.btnn{
+    cursor: pointer;
+
+    border-radius: 5rem;
+    margin: 0 4rem;
+    padding: 1rem;
+
+
+}
+.btnn i{
+    padding:0 .5rem;
+    font-size: .8rem;
+}
+.btnn:hover{
+    background: orangered;
+
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align:center ;
+}
+ .usermanual img{
+width: 16rem;
+height: 16rem;
+object-fit: cover;
+margin-bottom: 1rem;
+border:.6rem solid orange;
+border-radius: 50%;
+}
+#nam{
+    color: white;
+    font-size: 50px;
+}
+#developer{
+    color:wheat;
+    font-size: 30px;
+}
+.navbar{
+    width: 100%;
+}
+.navbar ul {
+    list-style-type: none;
+    padding:1rem 3rem;
+}
+.navbar ul li a{
+    display: block;
+    margin:1.5rem 0;
+    font-size: 30px;
+    color: white;
+    border-radius: 4rem;
+    background: darkgrey;
+    padding:1rem;
+}
+.navbar ul li a:hover{
+    background: orange;
+}
+#menu{
+    position: fixed;
+    top:1.5rem;
+    right: 1.5rem;
+    background: #333;
+    cursor: pointer;
+    color: white;
+    font-size: 2.2rem;
+    z-index: 1000;
+    padding:1rem 1.5rem;
+    display: none;
+    
+}
+@media(max-width:1200px)
+{
+    html{
+font-size: 55%;
+    }
+    .home{
+        padding:1rem 4rem;
+    }
+}
+@media(max-width:991px){
+    header{
+        left:-120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left:0%;
+    }
+    body{
+        padding:0px;
+    }
+}
+@media(max-width:768px){
+    body{
+        font-size: 50%;
+    }
+}
+
+@media(max-width:400px){
+    header{
+        width:100vw;
+    }
+    .head{
+        margin: 0 3rem;
+    }
+    .title{
+        margin: 0 3rem;
+    }
+}
+.home{
+    display:flex;
+    
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+    color:orange;
+    
+}
+.home h1{
+    font-size: 40px;
+}
+.home h3{
+    font-size: 30px;
+}
+.home .btn{
+    font-size:20px ;
+}
